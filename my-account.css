@@ -1,0 +1,46 @@
+/*
+* @subsection   My-account Page Styles
+*/
+#my-account .addresses-lists {
+  margin-bottom: 30px; }
+
+#my-account p.info-account {
+  margin: -4px 0 24px 0;
+  color: #263238; }
+
+#my-account ul.myaccount-link-list li {
+  overflow: hidden;
+  padding-bottom: 10px; }
+  #my-account ul.myaccount-link-list li a {
+    display: block;
+    overflow: hidden;
+    font: bold 18px/24px "Open Sans", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    border: 1px solid;
+    border-color: #e1e1e1;
+    background: #fbfbfb;
+    color: #263238; }
+    #my-account ul.myaccount-link-list li a:hover {
+      color: #bfa588; }
+    #my-account ul.myaccount-link-list li a i {
+      font-size: 25px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 52px;
+      height: 100%;
+      padding: 14px 0 0 0;
+      text-align: center;
+      border-right: 1px solid white; }
+    #my-account ul.myaccount-link-list li a span {
+      display: block;
+      padding: 13px 15px 15px 17px;
+      overflow: hidden;
+      border-left: 1px solid;
+      margin-left: 52px;
+      border-color: #e1e1e1; }
+    #my-account ul.myaccount-link-list li a:hover {
+      background: #eeeeee;
+      border-color: #d4d4d4; }
